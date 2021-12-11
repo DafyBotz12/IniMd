@@ -24,7 +24,7 @@ const { color } = require("../lib/color")
 const { exec } = require("child_process")
 const { getBuffer, fetchJson, fetchText, getRandom, getGroupAdmins, runtime, sleep } = require("../lib/myfunc");
 sph = "き⃟🌹"
-fake = "Fazd-bot created by Ardy"
+fake = "ᴅᴀғʏʙᴏᴛᴢ"
 
 let setting = JSON.parse(fs.readFileSync("./setting.json"))
 let mess = JSON.parse(fs.readFileSync('./connect/mess.json'));
@@ -128,25 +128,25 @@ var buatpesan = await generateWAMessageFromContent(from, {
         "hydratedButtons": [
           {
             "urlButton": {
-              "displayText": "Github Owner",
-              "url": "https://github.com/ArdyBotzz"
+              "displayText": "𝕲𝖎𝖙𝖍𝖚𝖇 𝕺𝖜𝖓𝖊𝖗",
+              "url": "https://github.com/DafyBotz12"
             }
           },
           {
             "callButton": {
-              "displayText": "Call Owner",
-              "phoneNumber": "6287863200063"
+              "displayText": "𝕮𝖆𝖑𝖑 𝕺𝖜𝖓𝖊𝖗",
+              "phoneNumber": "6281379753850"
             }
           },
           {
             "quickReplyButton": {
-              "displayText": "Donasi",
+              "displayText": "𝕯𝖔𝖓𝖆𝖘𝖎",
               "id": `${prefix}donasi`
             }
           },
           {
             "quickReplyButton": {
-              "displayText": "Script",
+              "displayText": "𝕾𝖈𝖗𝖎𝖕𝖙",
               "id": `${prefix}sc`,
             }
           },
@@ -320,15 +320,15 @@ await sendButton5(from, menunya, fake, await fazd.createMessage(from, {image: {u
 
 case "donasi":
 fazd.sendMessage(from, {text: `${sph}  Donasi
-*Gopay* : _08813647351_
-*Dana* : _08813647351_
+*Gopay* : _081379753850_
+*Dana* : _081379753850_
 ${sph}  Donasi Seikhlas Nya`, quoted: msg})
 break
 
 case "sc":
 case "sourcecode":
 case "scriptbot":
-fazd.sendMessage(from, {text: `Pastinya bukan sc gh atau sc yt:v`, quoted: msg})
+fazd.sendMessage(from, {text: `CARI KONTOL`, quoted: msg})
 break
 
 case "setprefix":
